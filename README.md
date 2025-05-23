@@ -6,7 +6,7 @@ This project is an interactive chatbot designed to perform intelligent research 
 
 ## 🎬 **Demo**
 
-[![Watch the Demo](thumbnail_add)](video_link)
+[![Watch the Demo](https://i9.ytimg.com/vi_webp/9j3ZDTtLYZU/mq3.webp?sqp=CISJw8EG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGB4gZSguMA8=&rs=AOn4CLB31SlmQrXGPID_bPCLt0dOSqWi0w)](https://www.youtube.com/watch?v=9j3ZDTtLYZU)
 
 *A brief demonstration of the chatbot's features, including PDF upload, querying, and receiving cited responses.*
 
