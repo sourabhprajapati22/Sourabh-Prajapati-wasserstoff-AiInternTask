@@ -1,5 +1,3 @@
-# Sourabh-Prajapati.wasserstoff.AiInternTask
-
 # Interactive Chatbot for Document Research
 
 This project is an interactive chatbot designed to perform intelligent research across a vast collection of documents. It can identify and extract key themes and provide detailed, cited answers to user questions.
