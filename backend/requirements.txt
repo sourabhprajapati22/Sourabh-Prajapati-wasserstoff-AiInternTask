@@ -1,0 +1,12 @@
+pdf2image
+sentence-transformers
+faiss-cpu   # it's working
+flask
+# boto3
+pymupdf
+pdfplumber
+# google-auth
+google-genai
+pandas
+tabulate
+-e .

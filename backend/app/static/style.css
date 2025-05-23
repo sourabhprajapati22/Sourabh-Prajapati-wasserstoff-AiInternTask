@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent body scrollbars from affecting layout */
+}
+
+.container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    box-sizing: border-box;
+    overflow: hidden; /* Prevent container overflow */
+}
+
+.left-panel {
+    width: 30%;
+    padding: 20px;
+    background: #f2f2f2;
+    overflow-y: auto;
+    border-right: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.left-panel h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.left-panel input[type="file"] {
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.left-panel button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.left-panel button:hover {
+    background-color: #0056b3;
+}
+
+#progressBox {
+    margin-top: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #aaa;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#progressBox div {
+    margin-bottom: 10px;
+}
+
+.right-panel {
+    width: 70%; /* Fixed width to complement left-panel's 30% */
+    height: 100vh; /* Fixed height to match viewport */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden; /* Prevent right-panel overflow */
+}
+
+.query-box {
+    width: 100%;
+    height: 150px; /* Fixed height */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.query-box textarea {
+    width: 100%;
+    height: 100px; /* Fixed height for textarea */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none; /* Prevent manual resizing */
+    box-sizing: border-box;
+}
+
+.query-box button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.query-box button:hover {
+    background-color: #218838;
+}
+
+.output-box {
+    width: 100%;
+    height: 100%; /* Fixed height */
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #eee;
+    overflow-y: auto; /* Scrollbar for vertical overflow */
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    border-radius: 5px;
+    box-sizing: border-box;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    scrollbar-gutter: stable; /* Prevent layout shift from scrollbar */
+}
