@@ -1,3 +1,5 @@
+paddleocr==2.9.1
+paddlepaddle==2.6.2
 pdf2image
 sentence-transformers
 faiss-cpu   # it's working
